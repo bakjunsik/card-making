@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #ffffff;
+}
+.con{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+.card{
+    width: 300px;
+    height: 500px;
+    border: 1px solid #DBDBDB;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.partA{
+    width: 300px;
+    height: 150px;
+    background-color: #d9d1ac;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+    justify-content:center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.profile_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin:25px;
+}
+.partB{
+    width: 300px;
+    height: 290px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    align-items: center;
+    justify-content:center;
+}
+.name{
+    margin: 5px 15px;
+    font-size: 50px;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: 'Shadows Into Light', sans-serif;
+    color: #c98c28;
+    border-bottom: 2px solid #DBDBDB;
+    margin-bottom: 20px;
+}
+.tmi{
+    width: 300px;
+    height: 190px;
+    overflow-y: scroll;
+}
+.tmi_text{
+    width: 250px;
+    height: 200px;
+    padding:0px 15px 0px 15px;
+    font-family: '맑은 고딕', sans-serif;
+}
